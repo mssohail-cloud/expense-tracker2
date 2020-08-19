@@ -1,5 +1,5 @@
 export default (state, action) => {
-    switch(action.typ){
+    switch(action.type){
         case'DELETE_TRANSACTION':
         return{
             ...state,
